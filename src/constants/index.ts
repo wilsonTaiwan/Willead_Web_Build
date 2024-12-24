@@ -11,6 +11,11 @@ export const COMPANY_INFO = {
     address: "123 Business Street, City, Country",
     phone: "+1 234 567 890",
     email: "contact@yourcompany.com"
+  },
+  social: {
+    facebook: "https://www.facebook.com/yourcompany",
+    twitter: "https://twitter.com/yourcompany",
+    linkedin: "https://www.linkedin.com/company/yourcompany"
   }
 }
 
@@ -25,7 +30,20 @@ export const FEATURES = [
   {
     icon: "monitor",
     title: "Web Development",
-    description: "Custom websites and web applications built with the latest technologies."
+    description: "Custom websites and web applications built with the latest technologies.",
+    slug: "web-development",
+    details: {
+      heading: "Professional Web Development Services",
+      subheading: "Create powerful web experiences",
+      fullDescription: "Our web development team creates custom solutions...",
+      technologies: ["React", "Next.js", "Node.js", "TypeScript"],
+      benefits: [
+        "Responsive Design",
+        "SEO Optimization",
+        "Performance First",
+        "Scalable Solutions"
+      ]
+    }
   },
   // ... 其他特性
 ] 
